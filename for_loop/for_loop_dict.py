@@ -1,5 +1,6 @@
-list = [1,2,4,5,6,7,8,9]
-
-for i in list:
-	print(i)
-print("Thank you")
+dic = {
+	"name": "tina",
+	"age":21,
+	"status":"single",
+}
+print(dic["name"])

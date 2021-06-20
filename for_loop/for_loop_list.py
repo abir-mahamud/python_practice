@@ -3,3 +3,32 @@ list = [1,2,4,5,6,7,8,9]
 for i in list:
 	print(i)
 print("Thank you")
+
+
+fruits = ["aam", "jam", "jambura"]
+for i in range(len(fruits)):
+	print(fruits[i])
+
+
+fruits = ["jam", "aam", "jambura"]
+fruits.sort()
+print(fruits)
+
+fruits = ["jam", "aam", "jambura"]
+fruits.sort(reverse=True)
+print(fruits)
+
+
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+for i in list2:
+	list1.append(i)
+print(list1)
+
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
