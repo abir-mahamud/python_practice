@@ -44,3 +44,16 @@ print("Here is a puzzel.")
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 print("That becomes", what, "Can you do it by hand?")
+
+
+
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(6)
